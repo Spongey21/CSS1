@@ -1,0 +1,94 @@
+.article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    color: black;
+
+    text-align: center;
+
+    margin-top: 2rem;
+}
+
+.article__citing {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.article__citing, .article__heading, .article__subheading {
+    text-align: left;
+    width: 600px;
+    margin-left: 12rem;
+}
+
+.article__citing, .article__heading {
+    font-weight: bold;
+}
+
+.article__citing, .article__subheading, .article__byline {
+    color: gray;
+}
+
+.article__citing--red {
+    color: red;
+}
+
+.article__citing--uppercase {
+    text-transform: uppercase;
+}
+
+.article__attention {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 1rem;
+
+    margin-right: 8rem;
+}
+
+.article__byline {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    width: 300px;
+    height: 375px;
+
+    text-align: right;
+}
+
+.article__picture {
+    width: 600px;
+    height: 400px;
+
+    object-fit: cover;
+}
+
+.article__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+
+    margin-top: 2rem;
+}
+
+.article__header {
+    font-size: 22px;
+    color: red;
+}
+
+.article__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 600px;
+}
+
+.article__extra {
+    font-size: 14px;
+}

@@ -1,0 +1,58 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact__jakob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contact__primaryInformation {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.contact__picture {
+    height: 50px;
+    width: 50px;
+
+    border-radius: 100%;
+
+    object-fit: cover;
+}
+
+.contact__primaryName, contact__secondaryName {
+    text-align: left;
+}
+
+.contact__list {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.contact__link {
+    text-decoration: none;
+
+    font-style: normal;
+    
+    color: black;
+}
+
+.contact__peter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contact__secondaryName {
+
+}

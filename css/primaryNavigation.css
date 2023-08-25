@@ -1,0 +1,55 @@
+.primaryNavigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem;
+    
+    box-shadow: 0px 1px 5px lightgray;
+}
+
+.primaryNavigation__logo {
+    margin-bottom: 2rem;
+
+    height: 75px;
+}
+
+.primaryNavigation__section { /* find bedre navn */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.primaryNavigation__list {
+    list-style-type: none;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    padding: 0 2rem;
+}
+
+.primaryNavigation__link {
+    text-decoration: none;
+    text-transform: capitalize;
+    
+    color: black;
+
+
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.primaryNavigation__link--uppercase {
+    text-transform: uppercase;
+}
+
+.primaryNavigation__link--color {
+    color: red;
+}
+
+.primaryNavigation__link--padding {
+    padding-right: 1.5rem;
+}
